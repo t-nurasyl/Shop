@@ -8,6 +8,10 @@
 
 /* Begin PBXBuildFile section */
 		1862A40620E2122600A8A487 /* main.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1862A40520E2122600A8A487 /* main.swift */; };
+		1862A40D20E224D100A8A487 /* Helper.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1862A40C20E224D100A8A487 /* Helper.swift */; };
+		1862A40F20E2259000A8A487 /* HelperFunctions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1862A40E20E2259000A8A487 /* HelperFunctions.swift */; };
+		1862A41120E2261100A8A487 /* Liza.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1862A41020E2261100A8A487 /* Liza.swift */; };
+		1862A41320E22DED00A8A487 /* Cart.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1862A41220E22DED00A8A487 /* Cart.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -25,6 +29,10 @@
 /* Begin PBXFileReference section */
 		1862A40220E2122600A8A487 /* Shop */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = Shop; sourceTree = BUILT_PRODUCTS_DIR; };
 		1862A40520E2122600A8A487 /* main.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = main.swift; sourceTree = "<group>"; };
+		1862A40C20E224D100A8A487 /* Helper.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Helper.swift; sourceTree = "<group>"; };
+		1862A40E20E2259000A8A487 /* HelperFunctions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HelperFunctions.swift; sourceTree = "<group>"; };
+		1862A41020E2261100A8A487 /* Liza.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Liza.swift; sourceTree = "<group>"; };
+		1862A41220E22DED00A8A487 /* Cart.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Cart.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,6 +66,10 @@
 			isa = PBXGroup;
 			children = (
 				1862A40520E2122600A8A487 /* main.swift */,
+				1862A41220E22DED00A8A487 /* Cart.swift */,
+				1862A41020E2261100A8A487 /* Liza.swift */,
+				1862A40E20E2259000A8A487 /* HelperFunctions.swift */,
+				1862A40C20E224D100A8A487 /* Helper.swift */,
 			);
 			path = Shop;
 			sourceTree = "<group>";
@@ -120,6 +132,10 @@
 			buildActionMask = 2147483647;
 			files = (
 				1862A40620E2122600A8A487 /* main.swift in Sources */,
+				1862A41120E2261100A8A487 /* Liza.swift in Sources */,
+				1862A40D20E224D100A8A487 /* Helper.swift in Sources */,
+				1862A41320E22DED00A8A487 /* Cart.swift in Sources */,
+				1862A40F20E2259000A8A487 /* HelperFunctions.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
